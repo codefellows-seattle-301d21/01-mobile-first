@@ -10,6 +10,11 @@
 
 /* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
 
+.main-nav .icon-menu {
+  float: right;
+  font-size: 2em;
+}
+
 .main-nav {
   padding: 0.1em;
 }
@@ -50,6 +55,37 @@
   text-decoration: none;
 }
 
+@media only screen and (min-width: 640px) {
+  .icon-menu {
+    display: none;
+  }
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .main-nav ul {
+    display: block;
+  }
+  .main-nav ul li {
+    display: inline-block;
+    float: left;
+  }
+  header div {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  header {
+    text-align: center;
+  }
+  .heading-group-h1 {
+    margin: 0 auto;
+    text-align: left;
+  }
+  .main-nav {
+      margin: 0 auto;
+      width: 100%;
+  }
+}
 /* TODO: Now add styles for how things should look on a larger screen:
          - Hide the hamburger.
          - Main should be all on one row, with padding spaced better for a larger screen.
