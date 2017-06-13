@@ -1,5 +1,6 @@
-/* TODO: Add a rule for images, so they never exceed their container's width. */
-
+/************************************
+            GLOBAL STYLES
+************************************/
 body {
   line-height: 1.5;
   font-size: 100%;
@@ -9,6 +10,10 @@ body {
 hr {
   margin: 1em;
   width: 80%;
+}
+
+img {
+  width: 100%;
 }
 
 /*TEXT STYLES
@@ -34,9 +39,4 @@ a:hover, a:focus {
 }
 
 a:visited {
-}
-
-
-img {
-  width: 100%;
 }
