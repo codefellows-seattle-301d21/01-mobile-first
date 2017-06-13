@@ -64,8 +64,13 @@
 /* @media only screen... */
 
 @media only screen and (min-width: 640px) {
-  nav ul {
-    display: block;
+  .main-nav ul {
+    display: inline;
+    float: left;
+    width: 100%
+  }
+  nav ul * {
+    display: inline-block;
   }
 
   nav span.icon-menu {
