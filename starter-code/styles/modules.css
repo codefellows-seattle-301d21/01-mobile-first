@@ -62,3 +62,20 @@
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
+
+
+@media only screen and (min-width: 640px) {
+  .main-nav ul {
+    display: inline;
+    float: left;
+    width: 100%
+  }
+
+  nav ul * {
+    display: inline-block;
+  }
+
+  nav span.icon-menu {
+    display: none;
+  }
+};
