@@ -1,3 +1,9 @@
+.icon-menu {
+  text-align: right;
+  font-size: 2.5em;
+  float: right;
+}
+
 .pull-left {
   float: left;
 }
